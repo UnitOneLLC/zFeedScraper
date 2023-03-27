@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- 
+	zFeedScraper.html
+	Copyright (c) 2023 Frederick Hewett 
+	All Rights Reserved
+	
+-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="zFeedScraper.js"></script>
+		<link href="zFeedScraper.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="btn-bar">
+			<button id="copy-btn">Copy table to clipboard</button>
+			<span id="copied-msg"></span>
+		</div>
+		<div id="table-container">
+			<table id="scrape-table">
+				<tr>
+					<th>Date</th>
+					<th>Hours</th>
+					<th>Minutes</th>
+					<th>Seconds</th>
+					<th>Distance</th>
+					<th>Elevation</th>
+					<th>Calories</th>
+					<th>Watts</th>
+				</tr>
+			</table>
+		</div>
+		<div id="copy-buffer">&nbsp</div>
+		<div id="end-copy"></div>
+
+		<div id="msg-area"></div>
+		<div id="img-area"><img id="msg-img" src="#" alt="."></div>
+		<div id="zwift-link"><a href="https://zwift.com/feed">Go to Zwift feed</a></div>
+		<div style="font-size: 2px">	
+			<a href="https://www.flaticon.com/free-icons/cycling" title="cycling icons">Cycling icons created by Freepik - Flaticon</a>
+		</div>
+	</body>
+</html>

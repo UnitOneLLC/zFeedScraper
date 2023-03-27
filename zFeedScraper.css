@@ -1,0 +1,43 @@
+/*
+	zFeedScraper.css
+	Copyright (c) 2023 Frederick F. Hewett
+*/
+th {
+	text-align: center;
+	background-color: #fb6418;
+	border-color: #fb6418;
+	color: white;
+}
+td {
+	text-align: right;
+}
+body {
+	min-width: 420px;
+}
+#msg-area, #img-area, #zwift-link {
+	text-align: center;
+	font-weight: bold;
+}
+#msg-img {
+	max-width: 120px;
+}
+#zwift-link {
+	display: none;
+	padding-bottom: 30px;
+}
+#copied-msg {
+	padding-left: 30px;
+}
+#copy-btn {
+	position: absolute;
+	right: 30px;
+}
+#btn-bar {
+	position: relative;
+}
+#table-container {
+	margin-top: 15px
+}
+#scrape-table {
+	border-collapse: collapse;
+}
